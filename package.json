@@ -1,0 +1,14 @@
+{
+  "name": "qorb-live-bot",
+  "version": "1.0.0",
+  "description": "QORB live macro signal bot with Telegram alerts",
+  "main": "qorb_live_v6.js",
+  "scripts": {
+    "start": "node qorb_live_v6.js",
+    "test-telegram": "node telegram_test.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "yahoo-finance2": "^3.4.1"
+  }
+}

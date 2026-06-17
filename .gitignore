@@ -135,4 +135,4 @@ dist
 # QORB bot local runtime files
 qorb_live_state.json
 qorb_live_history.csv
-qorb_paper_trades.csv
+qorb_paper_trades.csvpackage-lock.json

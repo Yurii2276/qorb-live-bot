@@ -1,0 +1,13 @@
+cat > railpack.json <<'EOF'
+{
+  "$schema": "https://schema.railpack.com",
+  "steps": {
+    "install": {
+      "commands": ["npm install --omit=dev"]
+    }
+  },
+  "deploy": {
+    "startCommand": "npm start"
+  }
+}
+EOF

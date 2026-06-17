@@ -1,0 +1,8 @@
+node_modules
+.git
+.env
+*.log
+qorb_live_state.json
+qorb_live_history.csv
+qorb_paper_trades.csv
+package-lock.json

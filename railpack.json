@@ -1,4 +1,3 @@
-cat > railpack.json <<'EOF'
 {
   "$schema": "https://schema.railpack.com",
   "steps": {
@@ -10,4 +9,3 @@ cat > railpack.json <<'EOF'
     "startCommand": "npm start"
   }
 }
-EOF

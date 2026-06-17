@@ -2,6 +2,20 @@ const YahooFinance = require("yahoo-finance2").default;
 const axios = require("axios");
 const fs = require("fs");
 
+const http = require("http");
+
+const HEALTH_PORT = process.env.PORT || 3000;
+
+http
+  .createServer((req, res) => {
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end("QORB bot is running\n");
+  })
+  .listen(HEALTH_PORT, "0.0.0.0", () => {
+    console.log("Health server listening on port " + HEALTH_PORT);
+  });
+
+
 const yahooFinance = new YahooFinance();
 
 const CONFIG = {
